@@ -26,7 +26,7 @@ if (!global.listenerAdded) {
     if (message.author.bot) return;
     if (message.channel.id !== TARGET_CHANNEL_ID) return;
     if (!message.member.roles.cache.has(USER_REQUIRED_ROLE_ID)) return;
-    if (message.content.trim() !== '!event') return;
+    if (message.content.trim() !== '.event') return;
 
     const now = Date.now();
     const lastUsed = cooldowns.get(message.author.id) || 0;
