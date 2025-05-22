@@ -32,7 +32,7 @@ client.on('messageCreate', async message => {
   cooldowns.set(message.author.id, now);
 
   message.channel.send(
-    `<@${message.author.id}> is starting an event! :firey:\n\n` +
+    `<@${message.author.id}> is starting an event! 🔥\n\n` +
     `Rate how the event went in <#1369041831295189055>!\n\n` +
     `<@&1360635910760300699>`
   );
