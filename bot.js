@@ -9,7 +9,7 @@ const client = new Client({
   ],
 });
 
-const TARGET_CHANNEL_ID = '1358489696669274342';
+const TARGET_CHANNEL_ID = '1360603378853613568';
 const USER_REQUIRED_ROLE_ID = '1360601477759893514';
 const cooldowns = new Map();
 const sendingFlags = new Set();
